@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 40423103</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2017-03-02T11:00:00+08:00</updated><entry><title>第二週</title><link href="./w2.html" rel="alternate"></link><published>2017-03-02T11:00:00+08:00</published><updated>2017-03-02T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-02:./w2.html</id><summary type="html">&lt;p&gt;繪製四連桿機構，並導入V-rep&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 40423103</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2017-03-30T11:00:00+08:00</updated><entry><title>Guthub改版問題</title><link href="./github.html" rel="alternate"></link><published>2017-03-30T11:00:00+08:00</published><updated>2017-03-30T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-30:./github.html</id><summary type="html">&lt;p&gt;修正Github&lt;/p&gt;
+
+
+&lt;p&gt;Github &lt;a href="https://help.github.com/articles/page-build-failed-tag-not-properly-terminated/"&gt;改版問題 &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;到 clone下來的倉儲資料夾 plugin\liquid_tags 裡面的 Readme.md 檔案&lt;/p&gt;
+&lt;p&gt;將所有大括號改成兩個 ("{" →"{{"，"}"→"}}")&lt;/p&gt;
+&lt;h3&gt;修改後的程式碼&lt;/h3&gt;
+&lt;pre class="brush: jscript"&gt;
+
+&lt;/pre&gt;</summary></entry><entry><title>第二週</title><link href="./w2.html" rel="alternate"></link><published>2017-03-02T11:00:00+08:00</published><updated>2017-03-02T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-02:./w2.html</id><summary type="html">&lt;p&gt;繪製四連桿機構，並導入V-rep&lt;/p&gt;
 
 
 &lt;p&gt;先利用SolveSpace繪製四連桿機構，再導入V-rep進行動態模擬&lt;/p&gt;
