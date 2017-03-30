@@ -4,7 +4,7 @@
 
 &lt;p&gt;Github &lt;a href="https://help.github.com/articles/page-build-failed-tag-not-properly-terminated/"&gt;改版解決方法 &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;到 clone下來的倉儲資料夾 plugin\liquid_tags 裡面的 Readme.md 檔案&lt;/p&gt;
-&lt;p&gt;將所有大括號改成兩個 ("{" →"{{"，"}"→"}}")&lt;/p&gt;
+&lt;p&gt;將所有大括號改成兩個&lt;/p&gt;
 &lt;h3&gt;修改後的程式碼&lt;/h3&gt;
 &lt;pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false"&gt;
 # Liquid-style Tags
