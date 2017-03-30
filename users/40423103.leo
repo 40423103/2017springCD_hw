@@ -33,8 +33,22 @@
 <v t="yen.20170120110024.4" a="E"><vh>body</vh>
 <v t="yen.20170120110024.5" a="E"><vh>reveal div</vh>
 <v t="yen.20170120110024.6" a="E"><vh>slides div</vh>
-<v t="yen.20170120110024.7" a="E"><vh>封面投影片</vh>
+<v t="yen.20170120110024.7"><vh>封面投影片</vh>
 <v t="yen.20170120110024.8"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20170330093335.1" a="E"><vh>W1</vh>
+<v t="leo.20170330093402.1"><vh>標題</vh>
+<v t="leo.20170330093335.2"><vh>第一週</vh></v>
+</v>
+<v t="leo.20170330093629.1"><vh>Ana_1GB</vh>
+<v t="leo.20170330093629.2"><vh>內文</vh></v>
+</v>
+<v t="leo.20170330093906.1"><vh>stunnel.conf</vh>
+<v t="leo.20170330093906.2"><vh>標題</vh></v>
+</v>
+<v t="leo.20170330094000.1" a="E"><vh>stunnel.conf</vh>
+<v t="leo.20170330094000.2"><vh>影片</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -72,6 +86,50 @@
 <v t="yen.20170209024032.1"><vh>reference</vh></v>
 </vnodes>
 <tnodes>
+<t tx="leo.20170330093335.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+						
+</t>
+<t tx="leo.20170330093335.2">#第一週
+
+
+
+</t>
+<t tx="leo.20170330093402.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170330093629.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170330093629.2">##1. 下載[可攜程式系統(1GB)](http://service.mde.tw/public/tiny2017_1GB.7z)
+
+
+</t>
+<t tx="leo.20170330093906.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170330093906.2">##2. 設定 Stunnel.conf 的 IP
+
+
+</t>
+<t tx="leo.20170330094000.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170330094000.2">###設定影片
+
+&lt;iframe src="https://player.vimeo.com/video/209672409" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
