@@ -2,7 +2,7 @@
 *Author: Jake Vanderplas <jakevdp@cs.washington.edu>*
 
 This plugin allows liquid-style tags to be inserted into markdown within
-Pelican documents. Liquid uses tags bounded by ``{{% ... %}}``, and is used
+Pelican documents. Liquid uses tags bounded by ``{% ... %}}``, and is used
 to extend markdown in other blogging platforms such as octopress.
 
 This set of extensions does not actually interface with liquid, but allows
@@ -23,7 +23,7 @@ There are several options available
 To insert a sized and labeled image in your document, enable the
 ``liquid_tags.img`` plugin and use the following:
 
-    {{% img [class name(s)] path/to/image [width [height]] [title text | "title text" ["alt text"]] %}}
+    {% img [class name(s)] path/to/image [width [height]] [title text | "title text" ["alt text"]] %}}
 
 ### Base64 Image (inline image) tag
 
@@ -32,14 +32,14 @@ There is one more tag for image: ``b64img``. It is based on ``img`` tag, but ins
 To use it:
 
 1. Enable ``liquid_tags.b64img``
-1. Insert tag as you'd insert image one: ``{{% b64img [class name(s)] path/to/image [width [height]] [title text | "title text" ["alt text"]] %}}``
+1. Insert tag as you'd insert image one: ``{% b64img [class name(s)] path/to/image [width [height]] [title text | "title text" ["alt text"]] %}}``
 
 Images are read on compilation phase so you can use any local path (just be sure that image will remain there on next compilation)
 
 ## Instagram Tag
 To insert a sized and labeled Instagram image in your document by its shortcode (such as ``pFI0CAIZna``), enable the ``liquid_tags.gram`` plugin and use the following:
 
-    {{% gram shortcode [size] [width] [class name(s)] [title text | "title text" ["alt text"]] %}}
+    {% gram shortcode [size] [width] [class name(s)] [title text | "title text" ["alt text"]] %}}
 
 You can specify a size with `t`, `m`, or `l`.
 
@@ -51,12 +51,12 @@ To insert a Flickr image to a post, follow these steps:
 3. Add FLICKR_API_KEY to your config
 4. Add this to your document:
 
-    ``{{% flickr image_id [small|medium|large] ["alt text"|'alt text'] %}}``
+    ``{% flickr image_id [small|medium|large] ["alt text"|'alt text'] %}}``
 
 ## Giphy Tag
 To insert a gif from Giphy in your document by its id (such as ``aMSJFS6oFX0fC``), enable the ``liquid_tags.giphy`` plugin and use the following:
 
-    {{% giphy gif_id ["alt text"|'alt text'] %}}
+    {% giphy gif_id ["alt text"|'alt text'] %}}
 
 IMPORTANT: You have to request a production API key from giphy [here](https://api.giphy.com/submit).
 For the first runs you could also use the public beta key you can get [here](https://github.com/giphy/GiphyAPI).
@@ -67,13 +67,13 @@ To insert a Soundcloud Widget to a post, follow these steps:
 1. Enable ``liquid_tags.soundcloud``
 2. Add this to your document:
 
-    ``{{% soundcloud track_url %}}``
+    ``{% soundcloud track_url %}}``
 
 ## Youtube Tag
 To insert youtube video into a post, enable the
 ``liquid_tags.youtube`` plugin, and add to your document:
 
-    {{% youtube youtube_id [width] [height] %}}
+    {% youtube youtube_id [width] [height] %}}
 
 The width and height are in pixels, and can be optionally specified.  If they
 are not, then the dimensions will be 640 (wide) by 390 (tall).
@@ -84,7 +84,7 @@ If you're experiencing issues with code generating (i.e. missing closing tags), 
 To insert a Vimeo video into a post, enable the
 ``liquid_tags.vimeo`` plugin, and add to your document:
 
-    {{% vimeo vimeo_id [width] [height] %}}
+    {% vimeo vimeo_id [width] [height] %}}
 
 The width and height are in pixels, and can be optionally specified.  If they
 are not, then the dimensions will be 640 (wide) by 390 (tall).
@@ -95,7 +95,7 @@ If you're experiencing issues with code generating (i.e. missing closing tags), 
 To insert flash/HTML5-friendly video into a post, enable the
 ``liquid_tags.video`` plugin, and add to your document:
 
-    {{% video /url/to/video.mp4 [width] [height] [/path/to/poster.png] %}}
+    {% video /url/to/video.mp4 [width] [height] [/path/to/poster.png] %}}
 
 The width and height are in pixels, and can be optionally specified.  If they
 are not, then the original video size will be used.  The poster is an image
@@ -108,7 +108,7 @@ the appropriate url.
 To insert HTML5 audio into a post, enable the ``liquid_tags.audio`` plugin,
 and add to your document:
 
-    {{% audio url/to/audio [url/to/audio] [url/to/audio] %}}
+    {% audio url/to/audio [url/to/audio] [url/to/audio] %}}
 
 Up to 3 audio urls are possible. So you can add different versions of
 the audio file you want to post because not every browser support every
@@ -122,12 +122,12 @@ To include code from a file in your document with a link to the original
 file, enable the ``liquid_tags.include_code`` plugin, and add to your
 document:
 
-    {{% include_code /path/to/code.py [lang:python] [lines:X-Y] [:hidefilename:] [title] %}}
+    {% include_code /path/to/code.py [lang:python] [lines:X-Y] [:hidefilename:] [title] %}}
 
 All arguments are optional but their order must be kept. `:hidefilename:` is
 only allowed if a title is also given.
 
-    {{% include_code /path/to/code.py lines:1-10 :hidefilename: Test Example %}}
+    {% include_code /path/to/code.py lines:1-10 :hidefilename: Test Example %}}
 
 This example will show the first 10 lines of the file while hiding the actual
 filename.
@@ -148,7 +148,7 @@ setting, e.g.:
 To insert an [IPython][] notebook into your post, enable the
 ``liquid_tags.notebook`` plugin and add to your document:
 
-    {{% notebook filename.ipynb %}}
+    {% notebook filename.ipynb %}}
 
 The file should be specified relative to the ``notebooks`` subdirectory of the
 content directory.  Optionally, this subdirectory can be specified in the
@@ -169,9 +169,9 @@ are a few extra steps required for this plugin:
   to accomplish this is to add the following lines within the header template
   of the theme you use:
 
-      {{% if EXTRA_HEADER %}}
-      {{ EXTRA_HEADER }}
-      {{% endif %}}
+      {% if EXTRA_HEADER %}}
+      { EXTRA_HEADER }}
+      {% endif %}}
 
   and in your configuration file, include the line:
 
@@ -185,13 +185,13 @@ The notebook tag also has two optional arguments: ``cells`` and ``language``.
 
 - You can specify a slice of cells to include:
 
-  ``{{% notebook filename.ipynb cells[2:8] %}}``
+  ``{% notebook filename.ipynb cells[2:8] %}}``
 
 - You can also specify the name of a language which Pygments should use for
   highlighting code cells. A list of the short names for languages that Pygments
   will highlight can be found [here](http://www.pygments.org/docs/lexers/).
 
-  ``{{% notebook filename.ipynb language[julia] %}}``
+  ``{% notebook filename.ipynb language[julia] %}}``
 
   This may be helpful for those using [IJulia](https://github.com/JuliaLang/IJulia.jl)
   or notebooks in any other language, especially as the IPython project [broadens its
@@ -202,7 +202,7 @@ The notebook tag also has two optional arguments: ``cells`` and ``language``.
 - These options can be used separately, together, or not at all. However,
   if both tags are used then ``cells`` must come before ``language``:
 
-  ``{{% notebook filename.ipynb cells[2:8] language[julia] %}}``
+  ``{% notebook filename.ipynb cells[2:8] language[julia] %}}``
 
 ### Collapsible Code in IPython Notebooks
 
