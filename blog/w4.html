@@ -13,12 +13,13 @@
 <link rel="canonical" href="./w4.html">
 
         <meta name="author" content="40423103" />
+        <meta name="description" content="Start.bat 設定" />
 
         <meta property="og:site_name" content="2017Spring 協同產品設計實習 40423103" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="第四週"/>
         <meta property="og:url" content="./w4.html"/>
-        <meta property="og:description" content=""/>
+        <meta property="og:description" content="Start.bat 設定"/>
         <meta property="article:published_time" content="2017-03-16" />
             <meta property="article:section" content="Course" />
             <meta property="article:author" content="40423103" />
@@ -141,7 +142,7 @@
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-03-16T11:00:00+08:00"> Thu 16 March 2017</time>
+        <i class="fa fa-calendar"></i><time datetime="2017-03-16T11:00:00+08:00"> 週四 16 三月 2017</time>
     </span>
             <span class="label label-default">By</span>
             <a href="./author/40423103.html"><i class="fa fa-user"></i> 40423103</a>
@@ -151,7 +152,17 @@
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <!-- PELICAN_END_SUMMARY -->
+                <p>Start.bat 設定</p>
+
+
+<h3>修改 Start.bat，讓批次檔可以在開啟時自動搜尋電腦 IP 然後修改 stunnel.conf 並開啟 fossil 倉儲</h3>
+<p>最後會開啟課程投影片、課程 fosill 倉儲、課程 Vimeo、課程部落格，我後來改成開小組 fossil 和課程部落格</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">
+chrome https://%NetworkIP% https://mde2a2.kmol.info/cdag2/home  http://mde.tw/2017springwcm/blog/ 
+Exit
+</pre>
+
+<h3>設定影片</h3>
             </div>
             <!-- /.entry-content -->
         </article>

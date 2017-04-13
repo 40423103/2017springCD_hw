@@ -234,7 +234,72 @@ To test the plugin in multiple environments we use [tox](http://tox.readthedocs.
 
 
 [IPython]: http://ipython.org/
-&lt;/pre&gt;</summary></entry><entry><title>第五週</title><link href="./w5.html" rel="alternate"></link><published>2017-03-23T11:00:00+08:00</published><updated>2017-03-23T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-23:./w5.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary></entry><entry><title>第四週</title><link href="./w4.html" rel="alternate"></link><published>2017-03-16T11:00:00+08:00</published><updated>2017-03-16T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-16:./w4.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary></entry><entry><title>第三週</title><link href="./w3.html" rel="alternate"></link><published>2017-03-09T11:00:00+08:00</published><updated>2017-03-09T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-09:./w3.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary></entry><entry><title>第二週</title><link href="./w2.html" rel="alternate"></link><published>2017-03-02T11:00:00+08:00</published><updated>2017-03-02T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-02:./w2.html</id><summary type="html">&lt;p&gt;繪製四連桿機構，並導入V-rep&lt;/p&gt;
+&lt;/pre&gt;</summary></entry><entry><title>第五週</title><link href="./w5.html" rel="alternate"></link><published>2017-03-23T11:00:00+08:00</published><updated>2017-03-23T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-23:./w5.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary></entry><entry><title>第四週</title><link href="./w4.html" rel="alternate"></link><published>2017-03-16T11:00:00+08:00</published><updated>2017-03-16T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-16:./w4.html</id><summary type="html">&lt;p&gt;Start.bat 設定&lt;/p&gt;
+
+
+&lt;h3&gt;修改 Start.bat，讓批次檔可以在開啟時自動搜尋電腦 IP 然後修改 stunnel.conf 並開啟 fossil 倉儲&lt;/h3&gt;
+&lt;p&gt;最後會開啟課程投影片、課程 fosill 倉儲、課程 Vimeo、課程部落格，我後來改成開小組 fossil 和課程部落格&lt;/p&gt;
+&lt;pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false"&gt;
+chrome https://%NetworkIP% https://mde2a2.kmol.info/cdag2/home  http://mde.tw/2017springwcm/blog/ 
+Exit
+&lt;/pre&gt;
+
+&lt;h3&gt;設定影片&lt;/h3&gt;</summary></entry><entry><title>第三週</title><link href="./w3.html" rel="alternate"></link><published>2017-03-09T11:00:00+08:00</published><updated>2017-03-09T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-09:./w3.html</id><summary type="html">&lt;p&gt;Hyperworks&lt;/p&gt;
+
+
+&lt;h2&gt;Hyperworks1&lt;/h2&gt;
+&lt;iframe src="https://player.vimeo.com/video/207229473" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h3&gt;逐字稿&lt;/h3&gt;
+&lt;p&gt;In the 2017 release, we followed our vision and implement a lot more features, delivering more technology for your HyperWorks units investment.
+In our continuous development, we focused, as always, on simulation-driven innovation, adding more optimization technology. 
+We added more physics simulation to the software, and we improved our parallel performance on high performance computers. 
+OptiStruct, which is our implicit code, adds a lot of development in the nonlinear implicit area, but also in the optimization technology. 
+RADIOSS, we see a lot of development in new materials and material modeling. 
+You probably know that we did the acquisition of MDS a couple of years back, and we have now MDS integrated with RSDIOSS, and are doing application there. MotionSolve is based on a very unique formulation that this different from other multibody dynamics code, and the MotionSolve formulation lends itself very well to optimization implementation. So the team has worked really hard on contact formulations, got very robust. It's very cool which kind of problems can solve with contact modelling.
+So this is along the structural solvers side on AcuSolve side we actually added the complete portfolio of turbulence and transition models that really helps us to solve problems in wind turbines and automotive industry much more accurately, and it’s a big asset of physics simulation.
+And then our electromagnetic suite has actually grown last year through the acquisition of Flux, from the CEDRAT company.
+As well as the acquisition of WinProp, from AWE.
+So now we have a complete frequency spectrum from low frequency electromagnetics the high frequency electromagnetics which is powered by FEKO.
+We now have a complete portfolio of physics modeling available for our customers, and it’s all linked through optimization. 
+In the 2017 release, we followed our vision and implement a lot more features, delivering more technology for your HyperWorks units investment.
+In our continuous development, we focused, as always, on simulation-driven innovation, adding more optimization technology. 
+We added more physics simulation to the software, and we improved our parallel performance on high performance computers. 
+OptiStruct, which is our implicit code, adds a lot of development in the nonlinear implicit area, but also in the optimization technology. 
+RADIOSS, we see a lot of development in new materials and material modeling. 
+You probably know that we did the acquisition of MDS a couple of years back, and we have now MDS integrated with RSDIOSS, and are doing application there. MotionSolve is based on a very unique formulation that this different from other multibody dynamics code, and the MotionSolve formulation lends itself very well to optimization implementation. So the team has worked really hard on contact formulations, got very robust. It's very cool which kind of problems can solve with contact modelling.
+So this is along the structural solvers side on AcuSolve side we actually added the complete portfolio of turbulence and transition models that really helps us to solve problems in wind turbines and automotive industry much more accurately, and it’s a big asset of physics simulation.
+And then our electromagnetic suite has actually grown last year through the acquisition of Flux, from the CEDRAT company.
+As well as the acquisition of WinProp, from AWE.
+So now we have a complete frequency spectrum from low frequency electromagnetics the high frequency electromagnetics which is powered by FEKO.
+We now have a complete portfolio of physics modeling available for our customers, and it’s all linked through optimization. &lt;/p&gt;
+&lt;h2&gt;Hyperworks3&lt;/h2&gt;
+&lt;iframe src="https://player.vimeo.com/video/207229503" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h3&gt;逐字稿&lt;/h3&gt;
+&lt;p&gt;In OptiStruct, one of our focus areas is nonlinear large deformation analysis. 
+And in 2017 we added nonlinear transient analysis.
+The main purpose was to couple AcuSolve to do fluid-structure interaction.
+But also one development that happened during the last year.
+Came out piece-wise in different point releases.
+And is now really mature.
+And 2017 is our contact analysis.
+So we have different ways of defining large sliding contact and things like that.
+The fast contact analysis for small deformation is blazing fast.
+It’s a very simple idea that makes the solution very fast, and that adds OptiStruct as really a leading nonlinear .
+Our two major optimization packages are OptiStruct for structural optimization, there’s a huge multidisciplinary component, too.
+And Hyperstudy for general optimization wrap around multidisciplinary optimization.
+OptiStruct we spend a lot of time continuing the development for optimization.
+And we have now Failsafe topology optimization.
+We kept on working on the manufacturing solution to do lattice optimization.
+For the multi-model optimization it’s really maturing and we find more and more applications where that helps .
+Our goal is actually to include all the physics in the optimizations.
+So the team right now is working on optimization for nonlinear problems and so on
+And then Hyperstudy, on the other hand, is going through a new transformation of the user the user experience was changed a few years back, but we are now trying to  make it much more easy to use by hiding a lot of the advanced functionalities to the regular users.
+And depending on the level of expertise or depending on the job that the user has to do, they can customize the userience.
+We adds a few new connections.
+One of them is a Flux connection.
+Flux is an electromagnetics code that we just acquired for low frequency electromagnetics, so we can all take a Flux database and put it into Hyperstudy into the study with that.&lt;/p&gt;</summary></entry><entry><title>第二週</title><link href="./w2.html" rel="alternate"></link><published>2017-03-02T11:00:00+08:00</published><updated>2017-03-02T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-02:./w2.html</id><summary type="html">&lt;p&gt;繪製四連桿機構，並導入V-rep&lt;/p&gt;
 
 
 &lt;p&gt;先利用SolveSpace繪製四連桿機構，再導入V-rep進行動態模擬&lt;/p&gt;
