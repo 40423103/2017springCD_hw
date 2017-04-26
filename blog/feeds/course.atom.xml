@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 40423103</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2017-03-30T12:00:00+08:00</updated><entry><title>第六週</title><link href="./w6.html" rel="alternate"></link><published>2017-03-30T12:00:00+08:00</published><updated>2017-03-30T12:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-30:./w6.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary></entry><entry><title>Github改版問題</title><link href="./github.html" rel="alternate"></link><published>2017-03-30T11:00:00+08:00</published><updated>2017-03-30T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-30:./github.html</id><summary type="html">&lt;h3&gt;修正Github&lt;/h3&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 40423103</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2017-03-30T12:00:00+08:00</updated><entry><title>第六週</title><link href="./w6.html" rel="alternate"></link><published>2017-03-30T12:00:00+08:00</published><updated>2017-03-30T12:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-30:./w6.html</id><summary type="html">&lt;p&gt;繪製八連桿並進行模擬&lt;/p&gt;
+</summary></entry><entry><title>Github改版問題</title><link href="./github.html" rel="alternate"></link><published>2017-03-30T11:00:00+08:00</published><updated>2017-03-30T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-30:./github.html</id><summary type="html">&lt;h3&gt;修正Github&lt;/h3&gt;
 
 
 &lt;p&gt;Github &lt;a href="https://help.github.com/articles/page-build-failed-tag-not-properly-terminated/"&gt;改版解決方法 &lt;/a&gt;&lt;/p&gt;
@@ -234,7 +235,12 @@ To test the plugin in multiple environments we use [tox](http://tox.readthedocs.
 
 
 [IPython]: http://ipython.org/
-&lt;/pre&gt;</summary></entry><entry><title>第五週</title><link href="./w5.html" rel="alternate"></link><published>2017-03-23T11:00:00+08:00</published><updated>2017-03-23T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-23:./w5.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary></entry><entry><title>第四週</title><link href="./w4.html" rel="alternate"></link><published>2017-03-16T11:00:00+08:00</published><updated>2017-03-16T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-16:./w4.html</id><summary type="html">&lt;p&gt;Start.bat 設定&lt;/p&gt;
+&lt;/pre&gt;</summary></entry><entry><title>第五週</title><link href="./w5.html" rel="alternate"></link><published>2017-03-23T11:00:00+08:00</published><updated>2017-03-23T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-23:./w5.html</id><summary type="html">&lt;p&gt;單連桿導入V-rep&lt;/p&gt;
+
+
+&lt;p&gt;將單連桿導入V-rep並進行模擬&lt;/p&gt;
+&lt;h3&gt;模擬影片&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://vimeo.com/214859855" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;</summary></entry><entry><title>第四週</title><link href="./w4.html" rel="alternate"></link><published>2017-03-16T11:00:00+08:00</published><updated>2017-03-16T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-16:./w4.html</id><summary type="html">&lt;p&gt;Start.bat 設定&lt;/p&gt;
 
 
 &lt;h3&gt;修改 Start.bat，讓批次檔可以在開啟時自動搜尋電腦 IP 然後修改 stunnel.conf 並開啟 fossil 倉儲&lt;/h3&gt;
@@ -247,7 +253,7 @@ Exit
 &lt;h3&gt;設定影片&lt;/h3&gt;
 &lt;iframe src="https://player.vimeo.com/video/213013807" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;p&gt;&lt;a href="https://vimeo.com/213013807"&gt;Start.bat 設定&lt;/a&gt; from &lt;a href="https://vimeo.com/user45467634"&gt;劉怡萱&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary></entry><entry><title>第三週</title><link href="./w3.html" rel="alternate"></link><published>2017-03-09T11:00:00+08:00</published><updated>2017-03-09T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-09:./w3.html</id><summary type="html">&lt;p&gt;Hyperworks&lt;/p&gt;
+&lt;p&gt;&lt;p&gt;&lt;a href="https://vimeo.com/213013807"&gt;Start.bat 設定&lt;/a&gt; from &lt;a href="https://vimeo.com/user45467634"&gt;劉怡萱&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary></entry><entry><title>第三週</title><link href="./w3.html" rel="alternate"></link><published>2017-03-09T11:00:00+08:00</published><updated>2017-03-09T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-09:./w3.html</id><summary type="html">&lt;p&gt;Hyperworks 逐字稿 (1&amp;amp;3)&lt;/p&gt;
 
 
 &lt;h2&gt;Hyperworks1&lt;/h2&gt;
