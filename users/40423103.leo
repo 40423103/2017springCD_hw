@@ -36,18 +36,99 @@
 <v t="yen.20170120110024.7"><vh>封面投影片</vh>
 <v t="yen.20170120110024.8"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20170330093335.1"><vh>W1</vh>
-<v t="leo.20170330093402.1"><vh>標題</vh>
-<v t="leo.20170330093335.2"><vh>第一週</vh></v>
+<v t="leo.20170427033609.1"><vh>W1</vh>
+<v t="leo.20170427033609.2"><vh>標題</vh>
+<v t="leo.20170427033609.3"><vh>第一週</vh></v>
 </v>
-<v t="leo.20170330093629.1"><vh>Ana_1GB</vh>
-<v t="leo.20170330093629.2"><vh>內文</vh></v>
+<v t="leo.20170427033609.4"><vh>Ana_1GB</vh>
+<v t="leo.20170427033609.5"><vh>內文</vh></v>
 </v>
-<v t="leo.20170330093906.1"><vh>stunnel.conf</vh>
+<v t="leo.20170427033609.6"><vh>stunnel.conf</vh>
+<v t="leo.20170427033609.7"><vh>標題</vh></v>
+</v>
+<v t="leo.20170427033609.8" a="E"><vh>stunnel.conf</vh>
+<v t="leo.20170427033609.9"><vh>影片</vh></v>
+</v>
+</v>
+<v t="leo.20170427033638.1"><vh>W2</vh>
+<v t="leo.20170427033638.2"><vh>標題</vh>
+<v t="leo.20170427033638.3"><vh>第二週</vh></v>
+</v>
+<v t="leo.20170427033638.4" a="E"><vh>四連桿</vh>
+<v t="leo.20170427033638.5"><vh>內文</vh></v>
+</v>
+<v t="leo.20170427033638.8" a="E"><vh>四連桿</vh>
+<v t="leo.20170427033638.9"><vh>影片</vh></v>
+</v>
+</v>
+<v t="leo.20170427033935.1"><vh>W3</vh>
+<v t="leo.20170427033935.2"><vh>標題</vh>
+<v t="leo.20170427033935.3"><vh>第三週</vh></v>
+</v>
+<v t="leo.20170427033935.4" a="E"><vh>標題</vh>
+<v t="leo.20170427033935.5"><vh>Hyperworks</vh></v>
+</v>
+<v t="leo.20170427033935.6" a="E"><vh>Hyperworks1</vh>
+<v t="leo.20170427033935.7"><vh>Hyperworks1</vh></v>
+</v>
+<v t="leo.20170427033935.8" a="E"><vh>Hyperworks1</vh>
+<v t="leo.20170427033935.9"><vh>逐字稿</vh></v>
+</v>
+<v t="leo.20170427033935.10" a="E"><vh>Hyperworks3</vh>
+<v t="leo.20170427033935.11"><vh>Hyperworks3		</vh></v>
+</v>
+<v t="leo.20170427033935.12" a="E"><vh>Hyperworks3</vh>
+<v t="leo.20170427033935.13"><vh>逐字稿</vh></v>
+</v>
+</v>
+<v t="leo.20170427033612.1"><vh>W4</vh>
+<v t="leo.20170427033612.2" a="E"><vh>標題</vh>
+<v t="leo.20170427033612.3"><vh>第四週</vh></v>
+</v>
+<v t="leo.20170427033612.4" a="E"><vh>Start.bat 設定</vh>
+<v t="leo.20170427033612.5"><vh>內文</vh></v>
+</v>
+<v t="leo.20170427033612.6" a="E"><vh>Start.bat 設定</vh>
+<v t="leo.20170427033612.7"><vh>標題</vh></v>
+</v>
+<v t="leo.20170427033612.8" a="E"><vh>Start.bat 設定</vh>
+<v t="leo.20170427033612.9"><vh>影片</vh></v>
+</v>
+</v>
+<v t="leo.20170427033614.1"><vh>W5</vh>
+<v t="leo.20170427033614.2" a="E"><vh>標題</vh>
+<v t="leo.20170427033614.3"><vh>第五週</vh></v>
+</v>
+<v t="leo.20170427033614.4" a="E"><vh>單連桿導入V-rep</vh>
+<v t="leo.20170427033614.5"><vh>內文</vh></v>
+</v>
+<v t="leo.20170427033614.6" a="E"><vh>單連桿導入V-rep</vh>
+<v t="leo.20170427033614.7"><vh>標題</vh></v>
+</v>
+<v t="leo.20170427033614.8" a="E"><vh>單連桿導入V-rep</vh>
+<v t="leo.20170427033614.9"><vh>影片</vh></v>
+</v>
+</v>
+<v t="leo.20170330093335.1" a="E"><vh>github</vh>
+<v t="leo.20170330093402.1" a="E"><vh>標題</vh>
+<v t="leo.20170330093335.2"><vh>github</vh></v>
+</v>
+<v t="leo.20170330093906.1" a="E"><vh>stunnel.conf</vh>
 <v t="leo.20170330093906.2"><vh>標題</vh></v>
 </v>
-<v t="leo.20170330094000.1" a="E"><vh>stunnel.conf</vh>
-<v t="leo.20170330094000.2"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427033621.1" a="E"><vh>W6</vh>
+<v t="leo.20170427033621.2" a="E"><vh>標題</vh>
+<v t="leo.20170427033621.3"><vh>第六週</vh></v>
+</v>
+<v t="leo.20170427033621.4" a="E"><vh>8bar</vh>
+<v t="leo.20170427033621.5"><vh>內文</vh></v>
+</v>
+<v t="leo.20170427033621.6" a="E"><vh>繪製</vh>
+<v t="leo.20170427033621.7"><vh>標題</vh></v>
+</v>
+<v t="leo.20170427033621.8" a="E"><vh>組裝</vh>
+<v t="leo.20170427033621.9"><vh>圖片</vh></v>
 </v>
 </v>
 </v>
@@ -97,7 +178,7 @@
 
 						
 </t>
-<t tx="leo.20170330093335.2">#第一週
+<t tx="leo.20170330093335.2">#Github 修正
 
 
 
@@ -107,33 +188,308 @@
 @others
     &lt;/script&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20170330093629.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;</t>
-<t tx="leo.20170330093629.2">##1. 下載[可攜程式系統(1GB)](http://service.mde.tw/public/tiny2017_1GB.7z)
-
-
-</t>
 <t tx="leo.20170330093906.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20170330093906.2">##2. 設定 Stunnel.conf 的 IP
+<t tx="leo.20170330093906.2">##Github : [改版解決方法](https://help.github.com/articles/page-build-failed-tag-not-properly-terminated/)
+
+###到 clone下來的倉儲資料夾 
+
+###plugin\liquid_tags 裡面的 Readme.md 檔案
+
+###將所有大括號改成兩個
+
 
 
 </t>
-<t tx="leo.20170330094000.1">&lt;section data-markdown&gt;
+<t tx="leo.20170427033609.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+						
+</t>
+<t tx="leo.20170427033609.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20170330094000.2">###設定影片
+<t tx="leo.20170427033609.3">#第一週
+
+
+
+</t>
+<t tx="leo.20170427033609.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170427033609.5">##1. 下載[可攜程式系統(1GB)](http://service.mde.tw/public/tiny2017_1GB.7z)
+
+
+</t>
+<t tx="leo.20170427033609.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170427033609.7">##2. 設定 Stunnel.conf 的 IP
+
+
+</t>
+<t tx="leo.20170427033609.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170427033609.9">###設定影片
 
 &lt;iframe src="https://player.vimeo.com/video/209672409" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
+</t>
+<t tx="leo.20170427033612.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+						
+</t>
+<t tx="leo.20170427033612.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170427033612.3">#第四週
+
+
+
+</t>
+<t tx="leo.20170427033612.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170427033612.5">##Start.bat 設定
+
+
+</t>
+<t tx="leo.20170427033612.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170427033612.7">###修改 Start.bat，讓批次檔可以在開啟時自動搜尋電腦 IP
+
+###然後修改 stunnel.conf 並開啟 fossil 倉儲
+
+
+</t>
+<t tx="leo.20170427033612.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170427033612.9">###設定影片
+
+&lt;iframe src="https://player.vimeo.com/video/213013807" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/213013807"&gt;Start.bat 設定&lt;/a&gt; from &lt;a href="https://vimeo.com/user45467634"&gt;劉怡萱&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+</t>
+<t tx="leo.20170427033614.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+						
+</t>
+<t tx="leo.20170427033614.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170427033614.3">#第五週
+
+
+
+</t>
+<t tx="leo.20170427033614.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170427033614.5">##單連桿導入V-rep
+
+
+</t>
+<t tx="leo.20170427033614.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170427033614.7">###將單連桿導入V-rep並進行模擬
+
+
+</t>
+<t tx="leo.20170427033614.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170427033614.9">###模擬影片
+
+&lt;iframe src="https://player.vimeo.com/video/214859855" width="640" height="339" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/214859855"&gt;國立虎尾科技大學機械設計工程系_40423103 - 單連桿導入V-rep&lt;/a&gt; from &lt;a href="https://vimeo.com/user45467634"&gt;劉怡萱&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+</t>
+<t tx="leo.20170427033621.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+						
+</t>
+<t tx="leo.20170427033621.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170427033621.3">#第六週
+
+
+
+</t>
+<t tx="leo.20170427033621.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170427033621.5">##利用Onshape繪製八連桿並進行模擬
+
+[Onshape](https://cad.onshape.com/documents/e64e4499c72a617ab07565a3/w/a195dae8e55c99ed1e147d18/e/a24cb1f9f9b5f16dfcb40d52)
+
+
+</t>
+<t tx="leo.20170427033621.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170427033621.7">###繪製影片
+
+&lt;iframe src="https://player.vimeo.com/video/214894807" width="640" height="340" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/214894807"&gt;國立虎尾科技大學機械設計工程系_40423103 - 八連桿繪製&lt;/a&gt; from &lt;a href="https://vimeo.com/user45467634"&gt;劉怡萱&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+
+</t>
+<t tx="leo.20170427033621.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170427033621.9">###組裝完成
+
+&lt;img src="http://i.imgur.com/gC0RTb8.png" title="source: imgur.com" /&gt;
+
+</t>
+<t tx="leo.20170427033638.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+						
+</t>
+<t tx="leo.20170427033638.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170427033638.3">#第二週
+
+
+
+</t>
+<t tx="leo.20170427033638.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170427033638.5">##繪製四連桿機構，並導入V-rep
+
+
+</t>
+<t tx="leo.20170427033638.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170427033638.9">###繪製影片
+
+&lt;iframe src="https://player.vimeo.com/video/207561287" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/207561287"&gt;四連桿&lt;/a&gt; from &lt;a href="https://vimeo.com/user45467634"&gt;劉怡萱&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+</t>
+<t tx="leo.20170427033935.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170427033935.10">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170427033935.11">###Hyperworks3
+&lt;iframe src="https://player.vimeo.com/video/207229503" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170427033935.12">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170427033935.13">&lt;img src="http://i.imgur.com/sun3QcH.png" height="580"&gt;</t>
+<t tx="leo.20170427033935.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427033935.3"># 第三週</t>
+<t tx="leo.20170427033935.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427033935.5"># Hyperworks  逐字稿</t>
+<t tx="leo.20170427033935.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427033935.7">###Hyperworks1
+&lt;iframe src="https://player.vimeo.com/video/207229473" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20170427033935.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170427033935.9">&lt;img src="http://i.imgur.com/BI0sse9.png" height="580"&gt;
 </t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
