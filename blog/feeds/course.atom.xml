@@ -240,7 +240,9 @@ To test the plugin in multiple environments we use [tox](http://tox.readthedocs.
 
 &lt;p&gt;將單連桿導入V-rep並進行模擬&lt;/p&gt;
 &lt;h3&gt;模擬影片&lt;/h3&gt;
-&lt;p&gt;&lt;iframe src="https://vimeo.com/214859855" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;</summary></entry><entry><title>第四週</title><link href="./w4.html" rel="alternate"></link><published>2017-03-16T11:00:00+08:00</published><updated>2017-03-16T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-16:./w4.html</id><summary type="html">&lt;p&gt;Start.bat 設定&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/214859855" width="640" height="339" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/214859855"&gt;國立虎尾科技大學機械設計工程系_40423103 - 單連桿導入V-rep&lt;/a&gt; from &lt;a href="https://vimeo.com/user45467634"&gt;劉怡萱&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary></entry><entry><title>第四週</title><link href="./w4.html" rel="alternate"></link><published>2017-03-16T11:00:00+08:00</published><updated>2017-03-16T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-16:./w4.html</id><summary type="html">&lt;p&gt;Start.bat 設定&lt;/p&gt;
 
 
 &lt;h3&gt;修改 Start.bat，讓批次檔可以在開啟時自動搜尋電腦 IP 然後修改 stunnel.conf 並開啟 fossil 倉儲&lt;/h3&gt;
