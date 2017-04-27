@@ -2,7 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 40423103</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2017-04-27T11:00:00+08:00</updated><entry><title>第十週</title><link href="./w10.html" rel="alternate"></link><published>2017-04-27T11:00:00+08:00</published><updated>2017-04-27T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-04-27:./w10.html</id><summary type="html">&lt;p&gt;Brython&lt;/p&gt;
 
 
-&lt;h2&gt;導入cdw10/add.py&lt;/h2&gt;
+&lt;h2&gt;git submodule cdw10&lt;/h2&gt;
+&lt;h2&gt;導入 cdw10/add.py&lt;/h2&gt;
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
 &lt;script type="./../data/Brython-3.3.1/brython.js" &gt;&lt;/script&gt;
@@ -26,7 +27,8 @@ import math
 # 準備繪圖畫布
 w10 = doc["w10"]
 degree = math.pi/180
-w10 &lt;=str(math.cos(60*degree))</summary></entry><entry><title>Github改版問題</title><link href="./github.html" rel="alternate"></link><published>2017-03-30T11:00:00+08:00</published><updated>2017-03-30T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-30:./github.html</id><summary type="html">&lt;h3&gt;修正Github&lt;/h3&gt;
+w10 &lt;=str(math.cos(60*degree)) 
+print (w10)</summary></entry><entry><title>Github改版問題</title><link href="./github.html" rel="alternate"></link><published>2017-03-30T11:00:00+08:00</published><updated>2017-03-30T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-30:./github.html</id><summary type="html">&lt;h3&gt;修正Github&lt;/h3&gt;
 
 
 &lt;p&gt;Github &lt;a href="https://help.github.com/articles/page-build-failed-tag-not-properly-terminated/"&gt;改版解決方法 &lt;/a&gt;&lt;/p&gt;
