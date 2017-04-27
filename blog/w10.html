@@ -142,7 +142,7 @@
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-04-27T11:00:00+08:00"> 週四 27 四月 2017</time>
+        <i class="fa fa-calendar"></i><time datetime="2017-04-27T11:00:00+08:00"> Thu 27 April 2017</time>
     </span>
             <span class="label label-default">By</span>
             <a href="./author/40423103.html"><i class="fa fa-user"></i> 40423103</a>
@@ -168,7 +168,7 @@
 <script>
 window.onload=function(){
 // 設定 data/py 為共用程式路徑
-brython({debug:1, pythonpath:['./../cdw10']});
+brython({debug:1, pythonpath:['./../data/py']});
 }
 </script>
 
@@ -182,15 +182,15 @@ brython({debug:1, pythonpath:['./../cdw10']});
 from browser import document as doc
 from browser import html
 import math
-import add
 container = doc['container']
-
 degree = math.pi/180
+def button1(event):
+    a = input("give me a")
+    container <= str(math.cos(60*degree)+float(a))
+doc["button1"].bind("click", button1)
+</script>
 
-a = 1
-b = 2
-sum = add.add(a, b)
-container <= str(math.cos(60*degree)+float(sum))
+<p><button id="button1">按下取 a 值</button></p>
             </div>
             <!-- /.entry-content -->
         </article>
