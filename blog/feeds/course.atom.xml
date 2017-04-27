@@ -19,7 +19,7 @@ brython(1);
 &lt;/script&gt;
 
 &lt;p&gt;&lt;!-- 以下實際利用  Brython --&gt;
-&lt;div id="add" width="600" height="400"&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;div id="zone" width="600" height="400"&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;script type="text/python3"&gt;
 from browser import document as doc
 from browser import html
