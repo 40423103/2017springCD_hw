@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>第二週 - 2017Spring 協同產品設計實習 40423103</title>
+    <title>第十週 - 2017Spring 協同產品設計實習 40423103</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,17 +10,16 @@
 
 
 
-<link rel="canonical" href="./w2.html">
+<link rel="canonical" href="./w10.html">
 
         <meta name="author" content="40423103" />
-        <meta name="description" content="繪製四連桿機構，並導入V-rep" />
 
         <meta property="og:site_name" content="2017Spring 協同產品設計實習 40423103" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="第二週"/>
-        <meta property="og:url" content="./w2.html"/>
-        <meta property="og:description" content="繪製四連桿機構，並導入V-rep"/>
-        <meta property="article:published_time" content="2017-03-02" />
+        <meta property="og:title" content="第十週"/>
+        <meta property="og:url" content="./w10.html"/>
+        <meta property="og:description" content=""/>
+        <meta property="article:published_time" content="2017-04-27" />
             <meta property="article:section" content="Course" />
             <meta property="article:author" content="40423103" />
 
@@ -129,10 +128,10 @@
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="./w2.html"
+                    <a href="./w10.html"
                        rel="bookmark"
-                       title="Permalink to 第二週">
-                        第二週
+                       title="Permalink to 第十週">
+                        第十週
                     </a>
                 </h1>
             </header>
@@ -142,7 +141,7 @@
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-03-02T11:00:00+08:00"> 週四 02 三月 2017</time>
+        <i class="fa fa-calendar"></i><time datetime="2017-04-27T11:00:00+08:00"> 週四 27 四月 2017</time>
     </span>
             <span class="label label-default">By</span>
             <a href="./author/40423103.html"><i class="fa fa-user"></i> 40423103</a>
@@ -152,26 +151,34 @@
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>繪製四連桿機構，並導入V-rep</p>
+                <!-- PELICAN_END_SUMMARY -->
 
+<!-- 導入 Brython 標準程式庫 -->
 
-<p>先利用SolveSpace繪製四連桿機構，再導入V-rep進行動態模擬</p>
-<h2>1. 30桿鍵</h2>
-<iframe src="./../data/30.html" width="720" height="540"></iframe>
+<script type="./../data/Brython-3.3.1/brython.js" src="./../data/Brython-3.3.1/brython_stdlib.js"></script>
 
-<h2>2. 50桿鍵</h2>
-<iframe src="./../data/50.html" width="720" height="540"></iframe>
+<!-- 啟動 Brython -->
 
-<h2>3. 60桿鍵</h2>
-<iframe src="./../data/60.html" width="720" height="540"></iframe>
+<script>
+window.onload=function(){
+brython(1);
+}
+</script>
 
-<h2>4. 組裝</h2>
-<iframe src="./../data/fourbar.html" width="720" height="540"></iframe>
+<p><!-- 以下實際利用  Brython 畫四連桿 trace point 路徑-->
+ <canvas id="add" width="600" height="400"></canvas></p>
+<script type="text/python3">
+from browser import document as doc
+from browser import html
+import math
+# 準備繪圖畫布
+canvas = doc["add"]
 
-<h3>繪製影片</h3>
-<iframe src="https://player.vimeo.com/video/207561287" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+import add
 
-<p><a href="https://vimeo.com/207561287">四連桿</a> from <a href="https://vimeo.com/user45467634">劉怡萱</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+sum = add.add(1,2)
+
+print("a+b=",sum)
             </div>
             <!-- /.entry-content -->
         </article>

@@ -1,0 +1,3 @@
+[submodule "cdw10"]
+	path = cdw10
+	url = https://github.com/mdecourse/cdw10.git
