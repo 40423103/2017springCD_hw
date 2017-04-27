@@ -17,7 +17,7 @@ brython(1);
 &lt;/script&gt;
 
 &lt;p&gt;&lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
- &lt;canvas id="w10" width="600" height="400"&gt;&lt;/canvas&gt;&lt;/p&gt;
+&lt;div id="w10" width="600" height="400"&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;script type="text/python3"&gt;
 from browser import document as doc
 from browser import html
