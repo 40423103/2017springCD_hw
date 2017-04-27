@@ -152,11 +152,11 @@
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>Brython</p>
+                <h3>Brython</h3>
 
 
 <h2>submodule add cdw10</h2>
-<h2>導入 cdw10/add.py</h2>
+<h2>導入  cdw10/add.py</h2>
 <!-- 導入 Brython 標準程式庫 -->
 
 <script type="./../data/Brython-3.3.1/brython.js" ></script>
@@ -177,11 +177,24 @@ brython(1);
 from browser import document as doc
 from browser import html
 import math
-# 準備繪圖畫布
-add = doc["add"]
-degree = math.pi/180
-w10 <=str(math.cos(60*degree)) 
-add<=w10
+# All the elements will be inserted in the div with the "zone" id
+zone = document['zone']
+
+# We create a new div element
+newdiv = html.DIV(Id = "new-div")
+# Now we add some style
+newdiv.style = {"padding": "5px",
+           "backgroundColor": "#ADD8E6"}
+
+# We create a new link and add the link to a string
+blink = html.A('brython',href="http://brython.info")
+text = "Brython is really cool, look at "+ blink + " for more"
+
+# Now we add the text to the div with id="new-div"
+newdiv <= html.DIV(text)
+
+# Finally, we add the newdiv to the outer div with id="zone"
+zone <= newdiv
             </div>
             <!-- /.entry-content -->
         </article>
