@@ -6,42 +6,38 @@
 &lt;h2&gt;導入  cdw10/add.py&lt;/h2&gt;
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
-&lt;script type="./../data/Brython-3.3.1/brython.js" &gt;&lt;/script&gt;
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
 
-&lt;script src="./../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
 
 &lt;!-- 啟動 Brython --&gt;
 
 &lt;script&gt;
 window.onload=function(){
-brython(1);
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../cdw10']});
 }
 &lt;/script&gt;
 
-&lt;p&gt;&lt;!-- 以下實際利用  Brython --&gt;
-&lt;div id="zone" width="600" height="400"&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
+
+&lt;!--&lt;canvas id="w10" width="800" height="600"&gt;&lt;/canvas&gt;--&gt;
+
+&lt;div id="container" width="600" height="400"&gt;&lt;/div&gt;
+
 &lt;script type="text/python3"&gt;
 from browser import document as doc
 from browser import html
 import math
-# All the elements will be inserted in the div with the "zone" id
-zone = document['zone']
+import add
+container = doc['container']
 
-# We create a new div element
-newdiv = html.DIV(Id = "new-div")
-# Now we add some style
-newdiv.style = {"padding": "5px",
-           "backgroundColor": "#ADD8E6"}
+degree = math.pi/180
 
-# We create a new link and add the link to a string
-blink = html.A('brython',href="http://brython.info")
-text = "Brython is really cool, look at "+ blink + " for more"
-
-# Now we add the text to the div with id="new-div"
-newdiv &lt;= html.DIV(text)
-
-# Finally, we add the newdiv to the outer div with id="zone"
-zone &lt;= newdiv</summary></entry><entry><title>Github改版問題</title><link href="./github.html" rel="alternate"></link><published>2017-03-30T11:00:00+08:00</published><updated>2017-03-30T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-30:./github.html</id><summary type="html">&lt;h3&gt;修正Github&lt;/h3&gt;
+a = 1
+b = 2
+sum = add.add(a, b)
+container &lt;= str(math.cos(60*degree)+float(sum))</summary></entry><entry><title>Github改版問題</title><link href="./github.html" rel="alternate"></link><published>2017-03-30T11:00:00+08:00</published><updated>2017-03-30T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-30:./github.html</id><summary type="html">&lt;h3&gt;修正Github&lt;/h3&gt;
 
 
 &lt;p&gt;Github &lt;a href="https://help.github.com/articles/page-build-failed-tag-not-properly-terminated/"&gt;改版解決方法 &lt;/a&gt;&lt;/p&gt;
