@@ -1,0 +1,4 @@
+git submodule update --init --recursive 
+(先將原倉儲內的子目錄資料抓下來)
+git submodule foreach --recursive git pull origin gh-pages
+(更新所有子目錄到最新版本)

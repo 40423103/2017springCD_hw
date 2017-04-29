@@ -30,10 +30,11 @@ import math
 import add
 container = doc['container']
 
+digree=math.pi/180
 a=1
 b=2
 sum=add.add(a,b)
-container &lt;= str(math.sum)
+container &lt;= str(math.cos(60*degree)+float(sum))
 
 &lt;/script&gt;</summary></entry><entry><title>Github改版問題</title><link href="./github.html" rel="alternate"></link><published>2017-03-30T11:00:00+08:00</published><updated>2017-03-30T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-30:./github.html</id><summary type="html">&lt;h3&gt;修正Github&lt;/h3&gt;
 
