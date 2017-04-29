@@ -155,8 +155,7 @@
                 <h3>Brython</h3>
 
 
-<h2>submodule add cdw10</h2>
-<h2>導入  cdw10/add.py</h2>
+<h3>將cdw10增加到子目錄，導入add.py，利用Brython顯示出來</h3>
 <!-- 導入 Brython 標準程式庫 -->
 
 <script src="../data/Brython-3.3.1/brython.js"></script>
@@ -167,7 +166,7 @@
 
 <script>
 window.onload=function(){
-// 設定 data/py 為共用程式路徑
+// 設定 cdw10 為共用程式路徑
 brython({debug:1, pythonpath:['./../cdw10']});
 }
 </script>
@@ -190,6 +189,43 @@ sum=add.add(a,b)
 container <= str(sum)
 
 </script>
+
+<h3>程式碼</h3>
+<p><pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">
+<!-- 導入 Brython 標準程式庫 --></p>
+<script src="../data/Brython-3.3.1/brython.js"></script>
+
+<script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+// 設定 cdw10 為共用程式路徑
+brython({debug:1, pythonpath:['./../cdw10']});
+}
+</script>
+
+<!-- 以下實際利用  Brython -->
+
+<div id="container" width="600" height="400"></div>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import html
+import math
+import add
+container = doc['container']
+
+a=1
+b=2
+sum=add.add(a,b)
+
+container <= str(sum)
+
+</script>
+
+</pre>
             </div>
             <!-- /.entry-content -->
         </article>
