@@ -15,13 +15,11 @@
 &lt;script&gt;
 window.onload=function(){
 // 設定 data/py 為共用程式路徑
-brython({debug:1, pythonpath:['./../data/py']});
+brython({debug:1, pythonpath:['./../cdw10']});
 }
 &lt;/script&gt;
 
-&lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
-
-&lt;!--&lt;canvas id="w10" width="800" height="600"&gt;&lt;/canvas&gt;--&gt;
+&lt;!-- 以下實際利用  Brython --&gt;
 
 &lt;div id="container" width="600" height="400"&gt;&lt;/div&gt;
 
@@ -29,15 +27,15 @@ brython({debug:1, pythonpath:['./../data/py']});
 from browser import document as doc
 from browser import html
 import math
+import add
 container = doc['container']
-degree = math.pi/180
-def button1(event):
-    a = input("give me a")
-    container &lt;= str(math.cos(60*degree)+float(a))
-doc["button1"].bind("click", button1)
-&lt;/script&gt;
 
-&lt;p&gt;&lt;button id="button1"&gt;按下取 a 值&lt;/button&gt;&lt;/p&gt;</summary></entry><entry><title>Github改版問題</title><link href="./github.html" rel="alternate"></link><published>2017-03-30T11:00:00+08:00</published><updated>2017-03-30T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-30:./github.html</id><summary type="html">&lt;h3&gt;修正Github&lt;/h3&gt;
+a=1
+b=2
+sum=add.add(a,b)
+container &lt;= str(math.sum)
+
+&lt;/script&gt;</summary></entry><entry><title>Github改版問題</title><link href="./github.html" rel="alternate"></link><published>2017-03-30T11:00:00+08:00</published><updated>2017-03-30T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-30:./github.html</id><summary type="html">&lt;h3&gt;修正Github&lt;/h3&gt;
 
 
 &lt;p&gt;Github &lt;a href="https://help.github.com/articles/page-build-failed-tag-not-properly-terminated/"&gt;改版解決方法 &lt;/a&gt;&lt;/p&gt;
