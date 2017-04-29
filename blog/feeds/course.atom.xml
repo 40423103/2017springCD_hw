@@ -32,14 +32,13 @@ container = doc['container']
 
 def button1(event):
     a=input("a=")
-def button2(event):
-    b=input("b=")
-sum=add.add(float(a),float(b))
+b=2
+sum=add.add(a,b)
 container &lt;= str(sum)
 doc["button1"].bind("click", button1)
-doc["button2"].bind("click", button2)
+
 &lt;button id="button1"&gt;按下取 a 值&lt;/button&gt;
-&lt;button id="button2"&gt;按下取 b 值&lt;/button&gt;
+
 &lt;/script&gt;</summary></entry><entry><title>Github改版問題</title><link href="./github.html" rel="alternate"></link><published>2017-03-30T11:00:00+08:00</published><updated>2017-03-30T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-30:./github.html</id><summary type="html">&lt;h3&gt;修正Github&lt;/h3&gt;
 
 
