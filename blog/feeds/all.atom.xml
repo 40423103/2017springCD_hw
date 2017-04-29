@@ -35,11 +35,11 @@ def button1(event):
 a=1
 b=2
 sum=add.add(a,b)
-container &lt;= str(math.sum+float(x))
+container &lt;= str(sum+float(x))
 doc["button1"].bind("click", button1)
 &lt;/script&gt;
 
-&lt;p&gt;&lt;button id="button1"&gt;按下取 a 值&lt;/button&gt;&lt;/p&gt;</summary></entry><entry><title>Github改版問題</title><link href="./github.html" rel="alternate"></link><published>2017-03-30T11:00:00+08:00</published><updated>2017-03-30T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-30:./github.html</id><summary type="html">&lt;h3&gt;修正Github&lt;/h3&gt;
+&lt;p&gt;&lt;button id="button1"&gt;按下取 x值&lt;/button&gt;&lt;/p&gt;</summary></entry><entry><title>Github改版問題</title><link href="./github.html" rel="alternate"></link><published>2017-03-30T11:00:00+08:00</published><updated>2017-03-30T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-30:./github.html</id><summary type="html">&lt;h3&gt;修正Github&lt;/h3&gt;
 
 
 &lt;p&gt;Github &lt;a href="https://help.github.com/articles/page-build-failed-tag-not-properly-terminated/"&gt;改版解決方法 &lt;/a&gt;&lt;/p&gt;
