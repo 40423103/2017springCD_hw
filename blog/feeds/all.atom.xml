@@ -31,11 +31,9 @@ import add
 container = doc['container']
 
 def button1(event):
-    x=input("a=")
-    y=input("b=")
-a=float(x)
-b=float(y)
-sum=add.add(a,b)
+    a=input("give me a")
+b=2
+sum=add.add(float(a),b)
 container &lt;= str(sum)
 doc["button1"].bind("click", button1)
 &lt;/script&gt;
