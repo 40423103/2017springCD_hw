@@ -31,16 +31,17 @@ import add
 container = doc['container']
 
 degree = math.pi/180
-a=1
-b=2
+a=x
+b=y
 sum=add.add(a,b)
 def button1(event):
     x = input("give me x")
-    container &lt;= str(math.cos(60*degree)+float(x)+float(sum))
+    y = input("give me y")
+    container &lt;= str(float(sum))
 doc["button1"].bind("click", button1)
 &lt;/script&gt;
 
-&lt;p&gt;&lt;button id="button1"&gt;按下取 x 值&lt;/button&gt;&lt;/p&gt;</summary></entry><entry><title>Github改版問題</title><link href="./github.html" rel="alternate"></link><published>2017-03-30T11:00:00+08:00</published><updated>2017-03-30T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-30:./github.html</id><summary type="html">&lt;h3&gt;修正Github&lt;/h3&gt;
+&lt;p&gt;&lt;button id="button1"&gt;按下取值&lt;/button&gt;&lt;/p&gt;</summary></entry><entry><title>Github改版問題</title><link href="./github.html" rel="alternate"></link><published>2017-03-30T11:00:00+08:00</published><updated>2017-03-30T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-30:./github.html</id><summary type="html">&lt;h3&gt;修正Github&lt;/h3&gt;
 
 
 &lt;p&gt;Github &lt;a href="https://help.github.com/articles/page-build-failed-tag-not-properly-terminated/"&gt;改版解決方法 &lt;/a&gt;&lt;/p&gt;
