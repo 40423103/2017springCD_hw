@@ -31,9 +31,12 @@ import add
 container = doc['container']
 
 degree = math.pi/180
+a=1
+b=2
+sum=add.add(a+b)
 def button1(event):
-    x = input("give me a")
-    container &lt;= str(math.cos(60*degree)+float(x))
+    x = input("give me x")
+    container &lt;= str(math.cos(60*degree)+sum+float(x))
 doc["button1"].bind("click", button1)
 &lt;/script&gt;
 
