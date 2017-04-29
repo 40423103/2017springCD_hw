@@ -35,7 +35,7 @@ def button1(event):
 a=1
 b=2
 sum=add.add(a,b)
-container &lt;= str(sum+float(x))
+container &lt;= str(sum,float(x))
 doc["button1"].bind("click", button1)
 &lt;/script&gt;
 
