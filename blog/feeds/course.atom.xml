@@ -114,9 +114,9 @@ sum3=times.times(a,b)
 sum4=divide.divide(a,b)
 
 
-count&lt;=str(sum1)/n
-count&lt;=str(sum2)/n
-count&lt;=str(sum3)/n
+count&lt;=str(sum1),
+count&lt;=str(sum2),
+count&lt;=str(sum3),
 count&lt;=str(sum4)
 
 
