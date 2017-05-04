@@ -13,13 +13,13 @@
 <link rel="canonical" href="./w10.html">
 
         <meta name="author" content="40423103" />
-        <meta name="description" content="將cdw10增加到子目錄，導入add.py，利用Brython顯示出來" />
+        <meta name="description" content="將 cdw10 增加為子目錄，導入 add.py，利用 Brython 顯示出來" />
 
         <meta property="og:site_name" content="2017Spring 協同產品設計實習 40423103" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="第十週"/>
         <meta property="og:url" content="./w10.html"/>
-        <meta property="og:description" content="將cdw10增加到子目錄，導入add.py，利用Brython顯示出來"/>
+        <meta property="og:description" content="將 cdw10 增加為子目錄，導入 add.py，利用 Brython 顯示出來"/>
         <meta property="article:published_time" content="2017-04-27" />
             <meta property="article:section" content="Course" />
             <meta property="article:author" content="40423103" />
@@ -142,7 +142,7 @@
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-04-27T11:00:00+08:00"> Thu 27 April 2017</time>
+        <i class="fa fa-calendar"></i><time datetime="2017-04-27T11:00:00+08:00"> 週四 27 四月 2017</time>
     </span>
             <span class="label label-default">By</span>
             <a href="./author/40423103.html"><i class="fa fa-user"></i> 40423103</a>
@@ -152,7 +152,7 @@
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <h3>將cdw10增加到子目錄，導入add.py，利用Brython顯示出來</h3>
+                <h2>將 cdw10 增加為子目錄，導入 add.py，利用 Brython 顯示出來</h2>
 
 
 <!-- 導入 Brython 標準程式庫 -->
@@ -225,6 +225,49 @@ container <= str(sum)
 </script>
 
 </pre>
+
+<h2>從 /data/w10 導入加減乘除程式，利用 Brython 顯示</h2>
+<!-- 導入 Brython 標準程式庫 -->
+
+<script src="../data/Brython-3.3.1/brython.js"></script>
+
+<script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+// 設定 cdw10 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/w10']});
+}
+</script>
+
+<!-- 以下實際利用  Brython -->
+
+<div id="count" width="600" height="400"></div>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import html
+import math
+import add
+import times
+import minus
+import divide
+count = doc['count']
+
+a=1
+b=2
+
+sum1=add.add(a,b)
+sum2=minus.minus(a,b)
+sum3=times.times(a,b)
+sum4=divide.divide(a,b)
+
+
+count <= str(sum1,sum2,sum3,sum4)
+
+</script>
             </div>
             <!-- /.entry-content -->
         </article>

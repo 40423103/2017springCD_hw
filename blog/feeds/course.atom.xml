@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 40423103</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2017-04-27T11:00:00+08:00</updated><entry><title>第十週</title><link href="./w10.html" rel="alternate"></link><published>2017-04-27T11:00:00+08:00</published><updated>2017-04-27T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-04-27:./w10.html</id><summary type="html">&lt;h3&gt;將cdw10增加到子目錄，導入add.py，利用Brython顯示出來&lt;/h3&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 40423103</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2017-04-27T11:00:00+08:00</updated><entry><title>第十週</title><link href="./w10.html" rel="alternate"></link><published>2017-04-27T11:00:00+08:00</published><updated>2017-04-27T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-04-27:./w10.html</id><summary type="html">&lt;h2&gt;將 cdw10 增加為子目錄，導入 add.py，利用 Brython 顯示出來&lt;/h2&gt;
 
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
@@ -71,7 +71,50 @@ container &lt;= str(sum)
 
 &lt;/script&gt;
 
-&lt;/pre&gt;</summary></entry><entry><title>Github改版問題</title><link href="./github.html" rel="alternate"></link><published>2017-03-30T11:00:00+08:00</published><updated>2017-03-30T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-30:./github.html</id><summary type="html">&lt;h3&gt;修正Github&lt;/h3&gt;
+&lt;/pre&gt;
+
+&lt;h2&gt;從 /data/w10 導入加減乘除程式，利用 Brython 顯示&lt;/h2&gt;
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 cdw10 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/w10']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython --&gt;
+
+&lt;div id="count" width="600" height="400"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+import add
+import times
+import minus
+import divide
+count = doc['count']
+
+a=1
+b=2
+
+sum1=add.add(a,b)
+sum2=minus.minus(a,b)
+sum3=times.times(a,b)
+sum4=divide.divide(a,b)
+
+
+count &lt;= str(sum1,sum2,sum3,sum4)
+
+&lt;/script&gt;</summary></entry><entry><title>Github改版問題</title><link href="./github.html" rel="alternate"></link><published>2017-03-30T11:00:00+08:00</published><updated>2017-03-30T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-30:./github.html</id><summary type="html">&lt;h3&gt;修正Github&lt;/h3&gt;
 
 
 &lt;p&gt;Github &lt;a href="https://help.github.com/articles/page-build-failed-tag-not-properly-terminated/"&gt;改版解決方法 &lt;/a&gt;&lt;/p&gt;
