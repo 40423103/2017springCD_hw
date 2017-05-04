@@ -115,11 +115,11 @@ sum4=divide.divide(a,b)
 
 
 count&lt;=str(sum1)
-
+\n
 count&lt;=str(sum2)
-
+\n
 count&lt;=str(sum3)
-
+\n
 count&lt;=str(sum4)
 
 
