@@ -114,7 +114,12 @@ sum4=divide.divide(a,b)
 
 count &lt;= str(sum1,sum2,sum3,sum4)
 
-&lt;/script&gt;</summary></entry><entry><title>Github改版問題</title><link href="./github.html" rel="alternate"></link><published>2017-03-30T11:00:00+08:00</published><updated>2017-03-30T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-30:./github.html</id><summary type="html">&lt;h3&gt;修正Github&lt;/h3&gt;
+&lt;/script&gt;
+
+&lt;h2&gt;近端加減乘除程式執行影片&lt;/h2&gt;
+&lt;iframe src="https://player.vimeo.com/video/214948749" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/214948749"&gt;國立虎尾科技大學機械設計工程系_ag2-加減乘除&lt;/a&gt; from &lt;a href="https://vimeo.com/user45467634"&gt;劉怡萱&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary></entry><entry><title>Github改版問題</title><link href="./github.html" rel="alternate"></link><published>2017-03-30T11:00:00+08:00</published><updated>2017-03-30T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-30:./github.html</id><summary type="html">&lt;h3&gt;修正Github&lt;/h3&gt;
 
 
 &lt;p&gt;Github &lt;a href="https://help.github.com/articles/page-build-failed-tag-not-properly-terminated/"&gt;改版解決方法 &lt;/a&gt;&lt;/p&gt;
