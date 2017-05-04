@@ -103,16 +103,22 @@ import add
 import times
 import minus
 import divide
-import app
 count = doc['count']
 
 a=1
 b=2
 
-sum=app.app(a,b)
+sum1=add.add(a,b)
+sum2=minus.minus(a,b)
+sum3=times.times(a,b)
+sum4=divide.divide(a,b)
 
 
-count&lt;=str(sum)
+count&lt;=str(sum1)
+count&lt;=str(sum2)
+count&lt;=str(sum3)
+count&lt;=str(sum4)
+
 
 &lt;/script&gt;
 
