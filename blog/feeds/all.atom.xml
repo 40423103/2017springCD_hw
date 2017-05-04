@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 40423103</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-04-27T11:00:00+08:00</updated><entry><title>第十週</title><link href="./w10.html" rel="alternate"></link><published>2017-04-27T11:00:00+08:00</published><updated>2017-04-27T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-04-27:./w10.html</id><summary type="html">&lt;h2&gt;將 cdw10 增加為子目錄，導入 add.py，利用 Brython 顯示出來&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 40423103</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-04-27T11:00:00+08:00</updated><entry><title>第十週</title><link href="./w10.html" rel="alternate"></link><published>2017-04-27T11:00:00+08:00</published><updated>2017-04-27T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-04-27:./w10.html</id><summary type="html">&lt;p&gt;利用 Brython 顯示加減乘除程式結果&lt;/p&gt;
 
 
+&lt;h2&gt;1. 將 cdw10 增加為子目錄，導入 add.py，利用 Brython 顯示出來&lt;/h2&gt;
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
 &lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
@@ -73,7 +74,7 @@ container &lt;= str(sum)
 
 &lt;/pre&gt;
 
-&lt;h2&gt;從 /data/w10 導入加減乘除程式，利用 Brython 顯示&lt;/h2&gt;
+&lt;h2&gt;2. 從 /data/w10 導入加減乘除程式，利用 Brython 顯示&lt;/h2&gt;
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
 &lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
@@ -112,11 +113,11 @@ sum3=times.times(a,b)
 sum4=divide.divide(a,b)
 
 
-count &lt;= str(sum1,sum2,sum3,sum4)
+count &lt;= str(sum3)
 
 &lt;/script&gt;
 
-&lt;h2&gt;近端加減乘除程式執行影片&lt;/h2&gt;
+&lt;h2&gt;3. 近端加減乘除程式執行影片&lt;/h2&gt;
 &lt;iframe src="https://player.vimeo.com/video/214948749" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href="https://vimeo.com/214948749"&gt;國立虎尾科技大學機械設計工程系_ag2-加減乘除&lt;/a&gt; from &lt;a href="https://vimeo.com/user45467634"&gt;劉怡萱&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary></entry><entry><title>Github改版問題</title><link href="./github.html" rel="alternate"></link><published>2017-03-30T11:00:00+08:00</published><updated>2017-03-30T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-03-30:./github.html</id><summary type="html">&lt;h3&gt;修正Github&lt;/h3&gt;
