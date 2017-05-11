@@ -208,7 +208,6 @@ class Spur(object):
         # 在輸入的畫布上繪製直線, 由圓心到節圓 y 軸頂點畫一直線
         self.create_line(midx, midy, midx, midy-rp)
         # 畫出 rp 圓, 畫圓函式尚未定義
-        rp=(0.6*canvas.width)/n
         #create_oval(midx-rp, midy-rp, midx+rp, midy+rp, width=2)
         # a 為模數 (代表公制中齒的大小), 模數為節圓直徑(稱為節徑)除以齒數
         # 模數也就是齒冠大小
@@ -301,14 +300,16 @@ class Spur(object):
             self.create_line(lfx,lfy,rfx,rfy,fill=color)
 canvas = doc['1gear']
 ctx = canvas.getContext("2d")
-x = (canvas.width)/2
-y = (canvas.height)/2
-r = 0.8*(canvas.height/2)
+
 # 齒數
 n = 17
 # 壓力角
 pa = 20
+r = 0.5*(canvas.height/2)
+x = ((canvas.width)/2) - r
+y = (canvas.height)/2
 Spur(ctx).Gear(x, y, r, n, pa, "blue")
+
 </script>
             </div>
             <!-- /.entry-content -->
