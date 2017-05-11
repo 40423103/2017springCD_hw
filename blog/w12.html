@@ -173,9 +173,9 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 <!-- 以下實際利用  Brython 繪圖-->
 
-<canvas id="1gear" width="800" height="600"></canvas>
+<canvas id="onegear" width="800" height="600"></canvas>
 
-<div id="1gear_div" width="800" height="20"></div>
+<div id="onegear_div" width="800" height="20"></div>
 
 <script type="text/python3">
 from browser import document as doc
@@ -298,17 +298,36 @@ class Spur(object):
             # lfx 為齒頂圓上的左側 x 座標, lfy 則為 y 座標
             # 下列為齒頂圓上用來近似圓弧的直線
             self.create_line(lfx,lfy,rfx,rfy,fill=color)
-canvas = doc['1gear']
+canvas = doc['onegear']
 ctx = canvas.getContext("2d")
 
-# 齒數
-n = 17
-# 壓力角
-pa = 20
-r = 0.5*(canvas.height/2)
-x = ((canvas.width)/2) - r
+#齒數
+n1 = 17
+n2 = 11
+n3 = 13
+
+x = (canvas.width)/2
 y = (canvas.height)/2
-Spur(ctx).Gear(x, y, r, n, pa, "blue")
+r = 0.8*canvas.height/(2*(n1+n2+n3))
+pa = 20
+
+#第一齒
+r1 = r*n1
+x1 = x *0.2+r1
+y1 = y
+Spur(ctx).Gear(x1, y1, r1, n1, pa, "blue")
+
+#第二齒
+r2 = r*n2
+x2 = x1+r1+r2
+y2 = y
+Spur(ctx).Gear(x2, y2, r2, n2, pa, "green")
+
+#第二齒
+r3 = r*n3
+x3 = x2+r2+r3
+y3 = y
+Spur(ctx).Gear(x3, y3, r3, n3, pa, "black")
 
 </script>
             </div>
