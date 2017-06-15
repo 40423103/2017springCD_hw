@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-05-11T11:39:58-00:00</lastmod>
+<lastmod>2017-06-15T11:26:12-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-05-11T11:39:58-00:00</lastmod>
+<lastmod>2017-06-15T11:26:12-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-05-11T11:39:58-00:00</lastmod>
+<lastmod>2017-06-15T11:26:12-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-05-11T11:39:58-00:00</lastmod>
+<lastmod>2017-06-15T11:26:12-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -40,7 +40,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./pages/about/</loc>
-<lastmod>2017-05-11T08:51:20+08:00</lastmod>
+<lastmod>2017-06-15T11:14:43+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./w17.html</loc>
+<lastmod>2017-06-15T11:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -110,14 +117,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/course.html</loc>
-<lastmod>2017-05-11T11:00:00+08:06</lastmod>
+<lastmod>2017-06-15T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40423103.html</loc>
-<lastmod>2017-05-11T11:00:00+08:06</lastmod>
+<lastmod>2017-06-15T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
