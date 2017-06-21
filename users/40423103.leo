@@ -27,7 +27,7 @@
 <v t="yen.20170215103332.1"><vh>@edit base.html</vh></v>
 </v>
 </v>
-<v t="yen.20170120110024.1"><vh>@clean index.html</vh>
+<v t="yen.20170120110024.1" a="E"><vh>@clean index.html</vh>
 <v t="yen.20170120110024.2" a="E"><vh>html</vh>
 <v t="yen.20170120110024.3"><vh>head</vh></v>
 <v t="yen.20170120110024.4" a="E"><vh>body</vh>
@@ -737,6 +737,8 @@ make.start()</t>
 <t tx="yen.20170120110024.8">## 2017Spring 協同產品設計實習
 
 ### 四設計二甲 40423103 劉怡萱
+
+[BLOG](http://40423103.github.io/2017springcd_hw/blog/)
 
 &lt;small&gt;
 Created by [40423103](http://40423103.github.io/2017springcd_hw/blog/)
