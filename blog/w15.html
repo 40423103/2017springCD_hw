@@ -458,15 +458,15 @@ x = (canvas.width)/2
 y = (canvas.height)/2+2400
 r = 8*(canvas.height/2)
 # 齒數
-n = 36
+n = 20
 # 壓力角
 pa = 20
 Spur(ctx).Gear(x, y, r, n, pa, "black")
 
 ctx.beginPath()
-ctx.fillStyle = "#00FF00"
+ctx.fillStyle = "#0000FF"
 ctx.font = "20px Arial"
-ctx.fillText("40423103",360,620)
+ctx.fillText("40423103",360,600)
 ctx.stroke()
 </script>
 
@@ -689,7 +689,7 @@ ctx.restore()
 ctx.beginPath()
 ctx.fillStyle = "#FF0000 "
 ctx.font = "20px Arial"
-ctx.fillText("40423101 ",x_g1-20, y_g1)
+ctx.fillText("40423101 ",x_g1-25, y_g1)
 ctx.stroke()
 
 # 將第2齒輪逆時鐘轉 90 度之後, 再多轉一齒, 以便與第1齒輪進行囓合
@@ -706,7 +706,7 @@ ctx.restore()
 ctx.beginPath()
 ctx.fillStyle = "#FF8800 "
 ctx.font = "20px Arial"
-ctx.fillText("40423103 ",x_g2-20, y_g2)
+ctx.fillText("40423103 ",x_g2-25, y_g2)
 ctx.stroke()
 
 # 將第3齒輪逆時鐘轉 90 度之後, 再往回轉第2齒輪定位帶動轉角, 然後再逆時鐘多轉一齒, 以便與第2齒輪進行囓合
@@ -730,7 +730,7 @@ ctx.restore()
 ctx.beginPath()
 ctx.fillStyle = "#FFFF00"
 ctx.font = "20px Arial"
-ctx.fillText("40423104 ",x_g3-20, y_g3)
+ctx.fillText("40423104 ",x_g3-25, y_g3)
 ctx.stroke()
 
 # 將第4齒輪逆時鐘轉 90 度之後, 再往回轉第3齒輪定位帶動轉角, 然後再逆時鐘多轉一齒, 以便與第2齒輪進行囓合
@@ -747,7 +747,7 @@ ctx.restore()
 ctx.beginPath()
 ctx.fillStyle = "#00FF00"
 ctx.font = "20px Arial"
-ctx.fillText("40423117 ",x_g4-20, y_g4)
+ctx.fillText("40423117 ",x_g4-25, y_g4)
 ctx.stroke()
 
 
@@ -765,7 +765,7 @@ ctx.restore()
 ctx.beginPath()
 ctx.fillStyle = "#00FFFF"
 ctx.font = "20px Arial"
-ctx.fillText("40423129 ",x_g5-20, y_g5)
+ctx.fillText("40423129 ",x_g5-25, y_g5)
 ctx.stroke()
 
 
@@ -783,7 +783,7 @@ ctx.restore()
 ctx.beginPath()
 ctx.fillStyle = "#0000FF"
 ctx.font = "20px Arial"
-ctx.fillText("40423136 ",x_g6-20, y_g6)
+ctx.fillText("40423136 ",x_g6-25, y_g6)
 ctx.stroke()
 
 
@@ -801,7 +801,7 @@ ctx.restore()
 ctx.beginPath()
 ctx.fillStyle = "#7700BB "
 ctx.font = "20px Arial"
-ctx.fillText("40423157 ",x_g7-20, y_g7)
+ctx.fillText("40423157 ",x_g7-25, y_g7)
 ctx.stroke()
 
 </script>
