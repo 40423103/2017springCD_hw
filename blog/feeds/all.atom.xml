@@ -13,7 +13,160 @@
 &lt;p&gt;&lt;p&gt;&lt;a href="https://vimeo.com/222554559"&gt;40423103-2017springcd-final-6.mp4&lt;/a&gt; from &lt;a href="https://vimeo.com/user45467634"&gt;劉怡萱&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary></entry><entry><title>第十七週</title><link href="./w17.html" rel="alternate"></link><published>2017-06-15T11:00:00+08:00</published><updated>2017-06-15T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-06-15:./w17.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;h3&gt;1. 在各自的倉儲中建立一個雙足 solvespace 機構零組件,存入 final 子目錄中&lt;/h3&gt;
-&lt;iframe src="./../final/雙足.html" width="720" height="540"&gt;&lt;/iframe&gt;</summary></entry><entry><title>第十五週</title><link href="./w15.html" rel="alternate"></link><published>2017-06-01T11:00:00+08:00</published><updated>2017-06-01T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-06-01:./w15.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;iframe src="./../final/雙足.html" width="720" height="540"&gt;&lt;/iframe&gt;
+
+&lt;h3&gt;2. 在各自的網誌上, 以 "W17 行走機構 2D 靜態繪圖"為標題, 以 Brython 畫出行走機構的示意圖&lt;/h3&gt;
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 繪圖--&gt;
+
+&lt;canvas id="w17-1" width="800" height="800"
+style="border:1px solid #d3d3d3;"&gt;
+Your browser does not support the HTML5 canvas tag.&lt;/canvas&gt;
+
+&lt;script&gt;
+var c = document.getElementById("w17-1");
+var ctx = c.getContext("2d");
+
+ctx.moveTo(95,575);
+ctx.lineTo(95,550);
+ctx.lineTo(275,550);
+ctx.lineTo(275,50);
+ctx.lineTo(325,50);
+ctx.lineTo(325,150);
+ctx.lineTo(290,150);
+ctx.lineTo(290,550);
+ctx.lineTo(325,550);
+ctx.lineTo(325,654.5);
+ctx.lineWidth=3
+ctx.strokeStyle="#000000"
+ctx.stroke(); 
+
+ctx.beginPath();
+ctx.arc(325,278.82,375,0.5*Math.PI,0.711*Math.PI);
+ctx.stroke(); 
+
+ctx.moveTo(655,575);
+ctx.lineTo(655,550);
+ctx.lineTo(475,550);
+ctx.lineTo(475,50);
+ctx.lineTo(425,50);
+ctx.lineTo(425,150);
+ctx.lineTo(460,150);
+ctx.lineTo(460,550);
+ctx.lineTo(425,550);
+ctx.lineTo(425,654.5);
+ctx.lineWidth=3
+ctx.strokeStyle="#000000"
+ctx.stroke(); 
+
+ctx.beginPath();
+ctx.arc(425,278.82,375,0.289*Math.PI,0.5*Math.PI);
+ctx.stroke(); 
+
+ctx.moveTo(325,75);
+ctx.lineTo(425,75);
+ctx.moveTo(325,90);
+ctx.lineTo(425,90);
+ctx.lineWidth=3
+ctx.strokeStyle="#000000"
+ctx.stroke(); 
+
+ctx.font = "30px 微軟正黑體";
+ctx.fillText("W17 行走機構 2D 靜態繪圖",180,35); 
+
+&lt;/script&gt;
+
+&lt;p&gt;程式碼
+&lt;pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false"&gt;&lt;/p&gt;
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 繪圖--&gt;
+
+&lt;canvas id="w17-1" width="800" height="800"
+style="border:1px solid #d3d3d3;"&gt;
+Your browser does not support the HTML5 canvas tag.&lt;/canvas&gt;
+
+&lt;script&gt;
+var c = document.getElementById("w17-1");
+var ctx = c.getContext("2d");
+
+ctx.moveTo(95,575);
+ctx.lineTo(95,550);
+ctx.lineTo(275,550);
+ctx.lineTo(275,50);
+ctx.lineTo(325,50);
+ctx.lineTo(325,150);
+ctx.lineTo(290,150);
+ctx.lineTo(290,550);
+ctx.lineTo(325,550);
+ctx.lineTo(325,654.5);
+ctx.lineWidth=3
+ctx.strokeStyle="#000000"
+ctx.stroke(); 
+
+ctx.beginPath();
+ctx.arc(325,278.82,375,0.5*Math.PI,0.711*Math.PI);
+ctx.stroke(); 
+
+ctx.moveTo(655,575);
+ctx.lineTo(655,550);
+ctx.lineTo(475,550);
+ctx.lineTo(475,50);
+ctx.lineTo(425,50);
+ctx.lineTo(425,150);
+ctx.lineTo(460,150);
+ctx.lineTo(460,550);
+ctx.lineTo(425,550);
+ctx.lineTo(425,654.5);
+ctx.lineWidth=3
+ctx.strokeStyle="#000000"
+ctx.stroke(); 
+
+ctx.beginPath();
+ctx.arc(425,278.82,375,0.289*Math.PI,0.5*Math.PI);
+ctx.stroke(); 
+
+ctx.moveTo(325,75);
+ctx.lineTo(425,75);
+ctx.moveTo(325,90);
+ctx.lineTo(425,90);
+ctx.lineWidth=3
+ctx.strokeStyle="#000000"
+ctx.stroke(); 
+
+ctx.font = "30px 微軟正黑體";
+ctx.fillText("W17 行走機構 2D 靜態繪圖",180,35); 
+
+&lt;/script&gt;
+
+&lt;/pre&gt;</summary></entry><entry><title>第十五週</title><link href="./w15.html" rel="alternate"></link><published>2017-06-01T11:00:00+08:00</published><updated>2017-06-01T11:00:00+08:00</updated><author><name>40423103</name></author><id>tag:,2017-06-01:./w15.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;h3&gt;1. 請以 W15 練習為網誌標題, 800x600 為畫布大小, 在畫布正中央畫一個半徑為 250 畫素, 壓力角 20, 齒數為 36 齒, 且只有上半齒形的漸開線正齒輪輪廓.&lt;/h3&gt;
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
